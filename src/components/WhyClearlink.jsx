@@ -97,7 +97,7 @@ const ClearLink = styled.div`
         width: 60%;
         margin: 1rem 0;
         font-size: 20px;
-        color: ${({ theme }) => theme.colors.text2};
+        color: ${({ theme }) => theme.colors.text};
       }
     }
   }
