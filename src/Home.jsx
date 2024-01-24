@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import SubFooter from "./components/SubFooter";
 import WhyClearlink from "./components/WhyClearlink";
 import Shopify from "./components/Shopify";
+import FAQs from "./components/FAQs";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <HeroSection />
       <WhyClearlink />
       <Shopify />
+      <FAQs />
       <SubFooter />
       <Footer />
     </HomeView>
