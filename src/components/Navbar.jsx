@@ -9,7 +9,7 @@ const Navbar = () => {
       <ul>
         <li><a href="#">Products</a></li>
         <li><a href="#">Solutions</a></li>
-        <li><a href="#">Resourcess</a></li>
+        <li><a href="#">Resources</a></li>
         <li><a href="#">Pricing</a></li>
       </ul>
 
@@ -28,7 +28,7 @@ const Nav = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 2rem 0;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   border-radius: 100px;
   background-color: ${({theme}) => theme.colors.grey_100};
   border: 1px solid ${({theme}) => theme.colors.border1};
@@ -57,13 +57,14 @@ const Nav = styled.div`
     gap: 1rem;
 
     button {
-      border: none;
       padding: 1rem 1.5rem;
       border-radius: 100px;
+      border: 1px solid ${({theme}) => theme.colors.border1};
       background-color: ${({theme}) => theme.colors.white};
     }
 
     .signup {
+      border: none;
       color: ${({theme}) => theme.colors.white};
       background-color: ${({theme}) => theme.colors.blue};
     }

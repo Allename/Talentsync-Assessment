@@ -13,5 +13,5 @@ const HeroSection = () => {
 export default HeroSection;
 
 const HeroView = styled.div`
-
+  margin: 0 3rem;
 `;
