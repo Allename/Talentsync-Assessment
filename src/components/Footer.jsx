@@ -78,7 +78,7 @@ const FooterView = styled.div`
     /* justify-content: space-between; */
     /* align-items: center; */
     gap: 3rem;
-    margin: 0 3rem;
+    margin: 0 6rem;
 
     .left {
       width: 40%;
@@ -129,7 +129,7 @@ const FooterView = styled.div`
 
   .bottom {
     margin-top: 3rem;
-    padding: 2rem 3rem;
+    padding: 2rem 6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -47,20 +47,19 @@ const SubFooter = () => {
 export default SubFooter;
 
 export const SubFooterView = styled.div`
-  margin-top: 3rem;
+  margin-top: 6rem;
   margin-bottom: 6rem;
   display: flex;
   align-items: center;
 
   .left {
     width: 50%;
-    margin: 0 3rem;
+    margin: 0 6rem;
     display: flex; 
     flex-direction: column;
     gap: 1.5rem;
 
     .title {
-      width: 70%;
       font-size: 33px;
       font-weight: 600;
     }
@@ -106,7 +105,7 @@ export const SubFooterView = styled.div`
   }
 
   .right {
-    width: 810px;
+    width: 970px;
     height: 500px;
 
     img {

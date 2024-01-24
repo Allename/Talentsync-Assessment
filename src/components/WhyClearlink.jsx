@@ -83,7 +83,7 @@ const ClearLink = styled.div`
 
     .small-title {
       margin: 1rem 0;
-      font-weight: 400;
+      font-weight: 500;
       color: ${({ theme }) => theme.colors.blue};
     }
 
@@ -111,7 +111,7 @@ const ClearLink = styled.div`
       gap: 2rem;
       
       .item {
-        width: 40%;
+        width: 45%;
         display: flex;
         flex-direction: column;
         gap: 1rem;
@@ -134,13 +134,14 @@ const ClearLink = styled.div`
         }
 
         .description {
-          color: ${({ theme }) => theme.colors.text2};
+          line-height: 28px; 
+          color: ${({ theme }) => theme.colors.text};
         }
       }
     }
 
     .image { 
-      width: 50%;
+      width: 70%;
       height: 30%;
     }
   }
