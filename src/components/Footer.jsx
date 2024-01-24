@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import SocialMedia from "../assets/icons/socials.icon.svg";
+import playstore from "../assets/icons/playstore.icon.svg";
+import appstore from "../assets/icons/appstore.icon.svg";
 import Logo from "./Logo";
 
 const Footer = () => {
@@ -56,6 +58,15 @@ const Footer = () => {
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
+
+          <div className="getapp">
+            <p>Get the app</p>
+
+            <div className="app-links">
+              <img src={playstore} alt="Playstore" />
+              <img src={appstore} alt="Appstore" />
+            </div>
+          </div>
         </div>
       </div>
 
@@ -75,28 +86,27 @@ const FooterView = styled.div`
 
   .top {
     display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */
     gap: 3rem;
     margin: 0 6rem;
 
     .left {
-      width: 40%;
+      width: 30%;
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
+      margin-right: 3rem;
 
       p {
-        width: 70%;
+        width: 100%;
         line-height: 24px;
-        color: ${({ theme }) => theme.colors.text2};
+        color: ${({ theme }) => theme.colors.text};
       }
     }
 
     .right {
       /* width: 60%; */
       display: flex;
-      gap: 3rem;
+      gap: 5rem;
 
       .item {
         display: flex;
@@ -122,6 +132,24 @@ const FooterView = styled.div`
               color: ${({ theme }) => theme.colors.text2};
             }
           }
+        }
+      }
+
+      .getapp {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        p {
+          font-size: 14px;
+          font-weight: 600;
+          color: ${({ theme }) => theme.colors.blue};
+        }
+
+        .app-links {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
         }
       }
     }
